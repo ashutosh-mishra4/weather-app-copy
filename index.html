@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./querries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="search-box">
+        <input
+          type="text"
+          autocomplete="off"
+          class="search"
+          placeholder="Search for a city"
+        />
+        <button class="search-btn" onclick="searchRes()">
+          <ion-icon name="search" class="icon"></ion-icon>
+        </button>
+      </div>
+      <div class="sub-container">
+        <div class="com-box margin">
+          <ion-icon class="icon" name="location"></ion-icon>
+          <h1 class="location">London, GB</h1>
+        </div>
+        <div class="date-and-time">
+          <h2 class="date">Thursday 9 November 2021</h2>
+          <h4 id="time">8:41</h4>
+        </div>
+        <h2 class="degree">27°c</h2>
+        <h2 class="description">Cloudy</h2>
+      </div>
+      <div class="upcoming">
+        <div class="mini-card">
+          <h4>Lowest</h4>
+          <p class="lowest">27°c</p>
+        </div>
+        <div class="mini-card">
+          <h4>Highest</h4>
+          <p class="highest">27°c</p>
+        </div>
+      </div>
+    </main>
+    <script defer src="./script.js"></script>
+  </body>
+</html>

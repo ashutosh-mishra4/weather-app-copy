@@ -1,0 +1,15 @@
+@media (max-width: 29em) {
+  html {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 22em) {
+  html {
+    font-size: 9px;
+  }
+
+  .main-container {
+    padding: 1.8rem;
+  }
+}
